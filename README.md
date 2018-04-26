@@ -51,13 +51,13 @@ model.fit(np.array(X_train), np.array(Y_train), validation_data=(np.array(X_test
 In test part, the `weight matrix` of Embedding layer stores the whold pre-trained word vector, and you just need to record word_index for transforming text to sequence during test process.
 
 #### For WordvecLoad:
-##### embedding_index: { word: vec }
-##### word_index: { word: index}
-##### embedding_matrix: { index: vec }
+###### a. embedding_index: { word: vec }
+###### b. word_index: { word: index}
+###### c. embedding_matrix: { index: vec }
 
 #### For Tokenizer:
-##### text_to_sequence(self, texts): Transforms each text in texts in a sequence of integers.
-##### pad_sequence(self, sequences): pad sequence to the given length, with 0.
+###### a. text_to_sequence(self, texts): Transforms each text in texts in a sequence of integers.
+###### b. pad_sequence(self, sequences): pad sequence to the given length, with 0.
 
 
 
