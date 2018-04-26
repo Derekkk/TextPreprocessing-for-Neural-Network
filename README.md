@@ -60,4 +60,6 @@ In test part, the `weight matrix` of Embedding layer stores the whold pre-traine
 ##### pad_sequence(self, sequences): pad sequence to the given length, with 0.
 
 
-The reason why I create this is that the existed preprocessing function is not very convenient to use. Also, just want to make things easier. If there are any problem or bugs or suggestions, plz feel free to contact me.
+
+
+The reason why I create this is that the existed preprocessing function is not very convenient to use. During testing time, we can not fully applied our pre-trained word vector since only the vec of words appearing in training corpus are recorded. Also, just want to make things easier. If there are any problem or bugs or suggestions, plz feel free to contact me.
